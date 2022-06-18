@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4Cast</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Mono:wght@200&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-image: url(images/gb.jpg); background-size: 100%">
+    <nav
+      class="navbar navbar-expand-lg border-bottom border-2 border-light navbar-dark bg-dark"
+    >
+      <div class="container-md justify-content-center">
+        <a class="navbar-brand" href="#"
+          ><img src="images/tornado.svg" alt="" width="30" height="24"
+        /></a>
+        <a class="navbar-brand text-white" href="#"> 4Cast </a>
+      </div>
+    </nav>
+    <div
+      class="d-flex align-items-center justify-content-center"
+      style="height: 400px"
+      id="city-div"
+    >
+
+
+      <div class="card h-50 w-50">
+        <div class="card-body bg-secondary d-flex align-items-center justify-content-center" style="--bs-bg-opacity: .6;">
+          <div class="input-group w-30" id="test">
+            <input
+              id="city"
+              type="text"
+              class="form-control"
+              placeholder="City Name"
+              aria-label="City Name"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-outline-secondary btn-dark text-white"
+              type="button"
+              id="searchBtn"
+            >
+              Search
+            </button>
+          </div>
+  <table class="table">
+
+  <tbody>
+    <tr>
+      <th scope="row">Temperature</th>
+      <td id="temp"></td>
+    </tr>
+    <tr>
+      <th scope="row">Wind Speed</th>
+      <td id="wind"></td>
+    </tr>
+    <tr>
+      <th scope="row">Humidity</th>
+      <td id="humidity"></td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
